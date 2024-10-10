@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+    font-family: sans-serif;
+}
+li a:hover{
+    color: white;
+    border-bottom: 2px solid goldenrod;
+}
+.details div {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 50px;
+}
+
+.details div span:nth-child(1){
+    color: white;
+    text-align: start;
+    
+}
+.details div span:nth-child(2){
+    color: lightgray;
+    font-size: 1.3rem;
+    
+    
+}
+.img{
+    margin-right:50px ;
+}
+.shadow{
+    position: absolute;
+    top: 30px;
+    left: 0;
+    font-size: 4rem;
+    z-index: -1;
+    font-weight: 900;
+}
