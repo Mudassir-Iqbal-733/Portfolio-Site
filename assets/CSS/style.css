@@ -26,11 +26,13 @@ li a:hover{
 .img{
     margin-right:50px ;
 }
-.shadow{
-    position: absolute;
-    top: 30px;
-    left: 0;
-    font-size: 4rem;
-    z-index: -1;
-    font-weight: 900;
+.data:hover{
+    background-color: rgb(248, 178, 2) !important;
+}
+.data:hover a{
+    color: white !important;
+}
+.data:hover p{
+    color: rgba(0, 0, 0, 0.808) !important;
+    font-weight: 600;
 }
