@@ -6,22 +6,25 @@
     <title>My Portfolio</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"/>
+      rel="stylesheet"
+    />
     <link
-    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
-    rel="stylesheet"/>
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"/>
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href=".//assets/CSS/style.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-transparent">
+    <nav class="navbar navbar-expand-lg bg-black fixed-top">
       <div class="container">
-        <a class="navbar-brand text-light fw-bolder fs-2" href="#">MUDASSIR.</a>
+        <a class="navbar-brand text-light fw-bolder fs-2" href="#"><img src="./assets/Images/logo.png.png" style="width: 150px;" alt=""></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -53,10 +56,10 @@
               <a class="nav-link text-light fw-bold" href="#resume">Resume</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-light fw-bold" href="#">Services</a>
+              <a class="nav-link text-light fw-bold" href="#services">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-light fw-bold" href="#">Skills</a>
+              <a class="nav-link text-light fw-bold" href="#skills">Skills</a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-light fw-bold" href="#">Projects</a>
@@ -68,7 +71,7 @@
         </div>
       </div>
     </nav>
-    <div class="section-1" style="padding: 60px 0px">
+    <div class="section-1" style="padding: 120px 0px">
       <div class="container">
         <div class="row">
           <div class="col-sm-12 col-md-6">
@@ -102,20 +105,16 @@
             </div>
           </div>
           <div class="col-sm-12 col-md-6">
-            <div
-              class="img1"
-              data-aos="fade-left"
-              data-aos-duration="2000"
-            >
+            <div class="img1" data-aos="fade-left" data-aos-duration="2000">
               <img src="./assets/Images/img1.png" alt="" style="width: 500px" />
             </div>
           </div>
         </div>
       </div>
     </div>
-
-    <section class="section-2 my-5 py-5"  id="about">
-      <div class="container">
+    
+    <section class="section-2 my-5 py-5" id="about">
+      <div class="container mt-5">
         <div class="d-flex justify-content-between">
           <div class="col-sm-12 col-md-6">
             <div class="img2" data-aos="fade-up" data-aos-duration="3000">
@@ -124,7 +123,7 @@
           </div>
           <div class="col-sm-12 col-md-6">
             <div
-              class="data text-start" 
+              class="myData text-start"
               data-aos="fade-up"
               data-aos-duration="2000"
             >
@@ -173,107 +172,237 @@
         </div>
       </div>
     </section>
-    <section class="section2 my-5" id="resume">
+  </div>
+    <section class="section2 my-5" id="resume" style="padding: 80px 0px;">
       <div class="container">
-        <div class="headings text-center px-5 mb-5" data-aos="fade-up" data-aos-duration="2000">
-          <h1 class="text-light display-3 fw-bolder" >Resume</h1>
+        <div
+          class="headings text-center px-5 mb-5"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+        >
+          <h1 class="text-light display-3 fw-bolder">Resume</h1>
           <p class="fs-5 text-secondary">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores
             sit quibusdam qui, voluptate odio ipsum? Lorem ipsum dolor sit amet
             consectetur, adipisicing elit. Officiis, omnis.
           </p>
         </div>
-        <div class="row gy-4 gx-4 mb-5"  data-aos="fade-up" data-aos-duration="2000">
+        <div
+          class="row gy-4 gx-4 mb-5"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+          data-aos-delay="1000"
+        >
           <div class="col-12 col-md-6">
             <div class="bg-dark py-3 px-4 rounded">
-            <span class="text-warning fw-bolder fs-3">2014-2015</span>
-            <h2 class="text-white py-2">Master Degree of Design</h2>
-            <span class="text-secondary">CAMBRIDGE UNIVERSITY</span>
-            <p class="pt-3 fs-5 text-secondary">
-              A small river named Duden flows by their place and supplies it
-              with the necessary regelialia. It is a paradisematic country, in
-              which roasted parts of sentences fly into your mouth.
-            </p>
-          </div>
-          </div>
-          <div class="col-12 col-md-6">
-            <div class="bg-dark py-3 px-4 rounded">
-            <span class="text-warning fw-bolder fs-3">2014-2015</span>
-            <h2 class="text-white py-2">Master Degree of Design</h2>
-            <span class="text-secondary">CAMBRIDGE UNIVERSITY</span>
-            <p class="pt-3 fs-5 text-secondary">
-              A small river named Duden flows by their place and supplies it
-              with the necessary regelialia. It is a paradisematic country, in
-              which roasted parts of sentences fly into your mouth.
-            </p>
-          </div>
+              <span class="text-warning fw-bolder fs-3">2014-2015</span>
+              <h2 class="text-white py-2">Master Degree of Design</h2>
+              <span class="text-secondary">CAMBRIDGE UNIVERSITY</span>
+              <p class="pt-3 fs-5 text-secondary">
+                A small river named Duden flows by their place and supplies it
+                with the necessary regelialia. It is a paradisematic country, in
+                which roasted parts of sentences fly into your mouth.
+              </p>
+            </div>
           </div>
           <div class="col-12 col-md-6">
             <div class="bg-dark py-3 px-4 rounded">
-            <span class="text-warning fw-bolder fs-3">2014-2015</span>
-            <h2 class="text-white py-2">Master Degree of Design</h2>
-            <span class="text-secondary">CAMBRIDGE UNIVERSITY</span>
-            <p class="pt-3 fs-5 text-secondary">
-              A small river named Duden flows by their place and supplies it
-              with the necessary regelialia. It is a paradisematic country, in
-              which roasted parts of sentences fly into your mouth.
-            </p>
-          </div>
+              <span class="text-warning fw-bolder fs-3">2014-2015</span>
+              <h2 class="text-white py-2">Master Degree of Design</h2>
+              <span class="text-secondary">CAMBRIDGE UNIVERSITY</span>
+              <p class="pt-3 fs-5 text-secondary">
+                A small river named Duden flows by their place and supplies it
+                with the necessary regelialia. It is a paradisematic country, in
+                which roasted parts of sentences fly into your mouth.
+              </p>
+            </div>
           </div>
           <div class="col-12 col-md-6">
             <div class="bg-dark py-3 px-4 rounded">
-            <span class="text-warning fw-bolder fs-3">2014-2015</span>
-            <h2 class="text-white py-2">Master Degree of Design</h2>
-            <span class="text-secondary">CAMBRIDGE UNIVERSITY</span>
-            <p class="pt-3 fs-5 text-secondary">
-              A small river named Duden flows by their place and supplies it
-              with the necessary regelialia. It is a paradisematic country, in
-              which roasted parts of sentences fly into your mouth.
-            </p>
+              <span class="text-warning fw-bolder fs-3">2014-2015</span>
+              <h2 class="text-white py-2">Master Degree of Design</h2>
+              <span class="text-secondary">CAMBRIDGE UNIVERSITY</span>
+              <p class="pt-3 fs-5 text-secondary">
+                A small river named Duden flows by their place and supplies it
+                with the necessary regelialia. It is a paradisematic country, in
+                which roasted parts of sentences fly into your mouth.
+              </p>
+            </div>
           </div>
+          <div class="col-12 col-md-6">
+            <div class="bg-dark py-3 px-4 rounded">
+              <span class="text-warning fw-bolder fs-3">2014-2015</span>
+              <h2 class="text-white py-2">Master Degree of Design</h2>
+              <span class="text-secondary">CAMBRIDGE UNIVERSITY</span>
+              <p class="pt-3 fs-5 text-secondary">
+                A small river named Duden flows by their place and supplies it
+                with the necessary regelialia. It is a paradisematic country, in
+                which roasted parts of sentences fly into your mouth.
+              </p>
+            </div>
           </div>
         </div>
-        <div class="d-flex justify-content-center pt-3"  data-aos="fade-up" data-aos-duration="2000">
-        <button
-        class="btn btn-warning mt-3 ms-2 fw-bold"
-        style="border-radius: 15px; padding: 15px 30px"
-      >
-        DOWNLOAD CV
-      </button>
-    </div>
+        <div
+          class="d-flex justify-content-center pt-3"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+        >
+          <button
+            class="btn btn-warning mt-3 ms-2 fw-bold"
+            style="border-radius: 15px; padding: 15px 30px"
+          >
+            DOWNLOAD CV
+          </button>
+        </div>
       </div>
     </section>
-    <section class="section3 my-5 py-5">
-      <div class="container">
-        <div class="headings text-center px-5 mb-5" data-aos="fade-up" data-aos-duration="2000">
-          <h1 class="text-light display-3 fw-bolder" >Services</h1>
+    <section class="section3 my-5 py-5" id="services">
+      <div class="container my-5">
+        <div
+          class="headings text-center px-5 mb-5"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+        >
+          <h1 class="text-light display-3 fw-bolder">Services</h1>
           <p class="fs-5 text-secondary">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores
             sit quibusdam qui, voluptate odio ipsum?
           </p>
         </div>
-        <div class="row">
+        <div class="row" data-aos="fade-up"
+        data-aos-duration="2000" data-aos-delay="1000">
           <div class="col-6 col-md-4">
             <div class="data bg-dark py-3 px-4 rounded text-center">
-            <a href="" class="text-decoration-none text-warning"><i class="ri-window-fill" style="font-size: 5rem;"></i></a>
-            <p class="para text-light fs-5 pt-4">WEB DEVELOPMENT</p>
+              <a href="" class="text-decoration-none text-warning"
+                ><i class="ri-window-fill" style="font-size: 5rem"></i
+              ></a>
+              <p class="para text-light fs-5 pt-4">WEB DEVELOPMENT</p>
             </div>
-            </div>
-            <div class="col-6 col-md-4">
-              <div class="data bg-dark py-3 px-4 rounded text-center">
-              <a href="" class="text-decoration-none text-warning"><i class="ri-pencil-ruler-2-line" style="font-size: 5rem;"></i></a>
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="data bg-dark py-3 px-4 rounded text-center">
+              <a href="" class="text-decoration-none text-warning"
+                ><i class="ri-pencil-ruler-2-line" style="font-size: 5rem"></i
+              ></a>
               <p class="para text-light fs-5 pt-4">WEB DESIGNING</p>
-              </div>
-              </div>
-              <div class="col-6 col-md-4">
-                <div class="data bg-dark py-3 px-4 rounded text-center">
-                <a href="" class="text-decoration-none text-warning"><i class="ri-image-edit-fill" style="font-size: 5rem;"></i></a>
-                <p class="para text-light fs-5 pt-4">EDITING</p>
-                </div>
-                </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="data bg-dark py-3 px-4 rounded text-center">
+              <a href="" class="text-decoration-none text-warning"
+                ><i class="ri-image-edit-fill" style="font-size: 5rem"></i
+              ></a>
+              <p class="para text-light fs-5 pt-4">EDITING</p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
+
+    <section class="section4 my-5 py-5" id="skills">
+      <div class="container my-5">
+        <div
+          class="headings text-center px-5 mb-5"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+        >
+          <h1 class="text-light display-3 fw-bolder">Skills</h1>
+          <p class="fs-5 text-secondary">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores
+            sit quibusdam qui, voluptate odio ipsum?
+          </p>
+        </div>
+        <div class="row gy-5 gx-5" data-aos="fade-up"
+        data-aos-duration="2000" data-aos-delay="1000">
+          <div class="col-sm-12 col-md-6">
+            <div class="aboutSkill">
+              <div class="headingSkills d-flex justify-content-between py-2">
+               <h4 class="text-light">HTML</h4>
+               <h4 class="text-light">95%</h4>
+              </div>
+              <div
+                class="progress"
+                role="progressbar"
+                aria-label="Basic example"
+                aria-valuenow="25"
+                aria-valuemin="0"
+                aria-valuemax="100" style="height: 12px;"
+              >
+                <div class="progress-bar bg-warning" style="width: 95%"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6">
+            <div class="aboutSkill">
+              <div class="headingSkills d-flex justify-content-between py-2">
+               <h4 class="text-light">CSS</h4>
+               <h4 class="text-light">90%</h4>
+              </div>
+              <div
+                class="progress"
+                role="progressbar"
+                aria-label="Basic example"
+                aria-valuenow="25"
+                aria-valuemin="0"
+                aria-valuemax="100" style="height: 12px;"
+              >
+                <div class="progress-bar bg-warning" style="width: 90%"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6">
+            <div class="aboutSkill">
+              <div class="headingSkills d-flex justify-content-between py-2">
+               <h4 class="text-light">BOOTSTRAP</h4>
+               <h4 class="text-light">80%</h4>
+              </div>
+              <div
+                class="progress"
+                role="progressbar"
+                aria-label="Basic example"
+                aria-valuenow="25"
+                aria-valuemin="0"
+                aria-valuemax="100" style="height: 12px;"
+              >
+                <div class="progress-bar bg-warning" style="width: 80%"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6">
+            <div class="aboutSkill">
+              <div class="headingSkills d-flex justify-content-between py-2">
+               <h4 class="text-light">JAVASCRIPT</h4>
+               <h4 class="text-light">70%</h4>
+              </div>
+              <div
+                class="progress"
+                role="progressbar"
+                aria-label="Basic example"
+                aria-valuenow="25"
+                aria-valuemin="0"
+                aria-valuemax="100" style="height: 12px;">
+                <div class="progress-bar bg-warning" style="width: 70%"></div>
+              </div>
+            </div>
+          </div>
+          </div>
+      </div>
+    </section>
+    <section class="section4 my-5 py-5" id="skills">
+      <div class="container">
+        <div
+          class="headings text-center px-5 mb-5"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+        >
+          <h1 class="text-light display-4 fw-bolder">PROJECTS</h1>
+          <p class="fs-5 text-secondary">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores
+            sit quibusdam qui, voluptate odio ipsum?
+          </p>
+        </div>
+        
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
