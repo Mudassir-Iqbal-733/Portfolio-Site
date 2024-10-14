@@ -62,7 +62,7 @@ opacity: 0.8;
 .achievement{
     height: 150px;
     position: relative;
-    top: 75px;
+    top: 120px;
     display: flex;
     flex-direction: column;
     justify-content: center;
